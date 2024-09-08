@@ -1,8 +1,8 @@
 // SPAM protection
 
-function checkForSpam(message){
-    let lowerCaseMessage = message.toLowerCase();
-    return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
+function checkForSpam(message) {
+  let lowerCaseMessage = message.toLowerCase();
+  return lowerCaseMessage.includes("spam") || lowerCaseMessage.includes("sale");
 }
 
 console.log(checkForSpam("Latest sale offers")); // true
