@@ -5,6 +5,7 @@ function checkForSpam(message) {
   return lowerCaseMessage.includes("spam") || lowerCaseMessage.includes("sale");
 }
 
+console.log("These are the results of Task 3:");
 console.log(checkForSpam("Latest sale offers")); // true
 console.log(checkForSpam("Get your free spam")); // true
 console.log(checkForSpam("Hello, how are you?")); // false
